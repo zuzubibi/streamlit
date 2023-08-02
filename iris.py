@@ -21,7 +21,7 @@ st.sidebar.title('Iris Species 💩')
 with st.sidebar:
     selectX = st.selectbox("X 변수 선택:", ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'])
     ''
-    selectY = st.selectbox('Y 변수 선택:', ['speal_length', 'sepal_width', 'petal_length', 'petal_width'])
+    selectY = st.selectbox('Y 변수 선택:', ['sepal_length', 'sepal_width', 'petal_length', 'petal_width'])
     ''
     selectSpecies = st.multiselect('붓꽃 유형 선택 (:blue[다중]):', [
         'setosa', 'versicolor', 'virginica'
